@@ -1,0 +1,141 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Computer Ingenieering Degree
+ * Subject: Interactive Application Programming
+ *
+ * @author Basilio Gómez Navarro
+ * @since 2.may.2020
+ * 
+ * Assignment statement:
+ * @link https://github.com/fsande/PAI-P11-Chess/blob/master/2019-2020_p10_Chess.md
+ *
+ * Git repository with the codes of the assignment:
+ * @link https://github.com/ULL-ESIT-INF-PAI-2019-2020/pai-p10-chess-alu0101049151.git
+ * 
+ */
+
+ body {
+   margin: 0;
+   font-family: "custom font";
+ }
+
+ header {
+   background-image: linear-gradient(LightSeaGreen, MediumAquamarine, white);
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ @font-face {
+   font-family: "custom font";
+   src: url("fonts/Roboto-Light.ttf");
+ }
+
+  @font-face {
+   font-family: "custom font bold";
+   src: url("fonts/Roboto-Bold.ttf");
+ }
+ 
+ #name {
+   font-family: "custom font", serif;
+   font-size: 2rem;
+ }
+
+ #name strong {
+   font-family: "custom font bold", serif;
+   font-size: 2rem;
+ }
+
+ header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  font-size: 14px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+  header h1 {
+   margin-top: 10%;
+   font-weight: normal;
+   text-align: center;
+   font-family: sans-serif;
+  } 
+
+  header h1 strong {
+   font-family: "custom font bold", serif;
+   font-size: 60px;
+   letter-spacing: 4px;
+  }
+
+  .queensText {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .queensText h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 3rem;
+  }
+
+  .queensText a.button {
+    margin: 20px;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px solid teal;
+    background-color: teal;
+  }
+
+ #links a {
+   margin: 5px;
+   font-family: "custom font", serif;
+   font-size: 1.5rem;
+   color: DarkSlateGray;
+ }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  footer {
+    font-size: 2rem;
+    height: 40%;
+    background-color: teal;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 20%;
+  }
+
+  footer h4 {
+    text-align: center;
+    margin: 0.5%;
+  }
+
+  footer p {
+    padding-left: 5%;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
